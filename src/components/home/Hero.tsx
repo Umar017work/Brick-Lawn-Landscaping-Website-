@@ -27,14 +27,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuoteModal }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         <div className="max-w-4xl mx-auto space-y-8">
           
-          {/* Tag Pill */}
-          <div className="inline-flex items-center space-x-2 bg-brand-surface/80 border border-brand-emerald/40 px-4 py-2 rounded-full backdrop-blur-md animate-in fade-in slide-in-from-bottom-3 duration-500">
-            <span className="w-2 h-2 rounded-full bg-brand-emerald animate-pulse"></span>
-            <span className="text-xs font-bold uppercase tracking-widest text-brand-sandstone">
-              Edmonton Outdoor Construction
-            </span>
-          </div>
-
           {/* Main Editorial Headline */}
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold text-white tracking-tight font-display leading-[1.08]">
             TURF & STONE. <br className="hidden sm:inline" />

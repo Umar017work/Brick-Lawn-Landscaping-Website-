@@ -17,7 +17,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenQuoteModal }) => {
           <div className="max-w-3xl space-y-6">
             <div className="inline-flex items-center space-x-2 bg-brand-card px-3.5 py-1.5 rounded-full border border-brand-border text-xs font-bold uppercase tracking-widest text-brand-sandstone">
               <ShieldCheck className="w-3.5 h-3.5 text-brand-emerald" />
-              <span>Edmonton Outdoor Construction Company</span>
+              <span>Quality Hardscaping & Artificial Turf</span>
             </div>
             <h1 className="text-4xl sm:text-6xl font-extrabold text-white font-display leading-tight">
               Turf & Stone. Built to Last.
